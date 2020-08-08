@@ -1,0 +1,16 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/yennanliu/TwitterServerHelloWorld/src/main/scala/server/BackwardsCompatServer.scala:7:27: object logging is not a member of package com.twitter.server[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.twitter.server.logging.{Logging => JDK14Logging}[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/yennanliu/TwitterServerHelloWorld/src/main/scala/server/BackwardsCompatServer.scala:11:57: not found: type JDK14Logging[0m
+[0m[[0m[31merror[0m] [0m[0mobject BackwardsCompatServer extends TwitterServer with JDK14Logging {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/yennanliu/TwitterServerHelloWorld/src/main/scala/server/BackwardsCompatServer.scala:22:7: not found: value log[0m
+[0m[[0m[31merror[0m] [0m[0m      log.debug("Received a request at " + Time.now)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/yennanliu/TwitterServerHelloWorld/src/main/scala/server/BackwardsCompatServer.scala:35:5: not found: value HttpMuxer[0m
+[0m[[0m[31merror[0m] [0m[0m    HttpMuxer.addHandler("/echo", service)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/yennanliu/TwitterServerHelloWorld/src/main/scala/server/BackwardsCompatServer.scala:36:5: not found: value HttpMuxer[0m
+[0m[[0m[31merror[0m] [0m[0m    HttpMuxer.addHandler("/echo/", service)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
