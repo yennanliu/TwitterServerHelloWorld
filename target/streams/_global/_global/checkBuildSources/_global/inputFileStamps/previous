@@ -1,1 +1,1 @@
-["sbt.Task[scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]",{"hashes":[["/Users/yennanliu/TwitterServerHelloWorld/build.sbt","d4c05d329277740de517efb2debd3023009f9b50"]],"lastModifiedTimes":[]}]
+["sbt.Task[scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]",{"hashes":[["/Users/yennanliu/TwitterServerHelloWorld/build.sbt","2f8a74c9533639f28bcb269e58895a07eff3de3b"]],"lastModifiedTimes":[]}]
