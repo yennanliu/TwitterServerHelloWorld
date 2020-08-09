@@ -1,6 +1,7 @@
 # TwitterServerHelloWorld
 > build dev server via TwitterServer framework
 
+
 ### Quick start 
 ```bash
 ### Run simple server 
@@ -49,3 +50,5 @@ localhost:9990
 	- https://twitter.github.io/twitter-server/
 - pass args to SBT
 	- https://alvinalexander.com/scala/sbt-how-pass-command-line-arguments-sbt-run/
+- Finagle : Finagle is a network stack for distributed systems
+	- https://twitter.github.io/finagle/guide/index.html
